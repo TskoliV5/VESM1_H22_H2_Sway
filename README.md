@@ -13,61 +13,67 @@ Svo fórum við að hljóma með hann, fyrstu vandamálin komu upp, þar sem ekk
 [![Hlusta](https://github.com/NITEOFF/Verkefni5Vesm1/blob/main/Mappa/skeletonhead.jpg)](https://youtu.be/cod4-cErUxs)
 
 # Kóðinn
-  ## NOTE:
-  vegna vandamala vildi foritid ekki virka eins og ati
-  #include "Arduino.h"
-  #include "SoftwareSerial.h"
-  #include "DFRobotDFPlayerMini.h"
-  #include <Servo.h>
+  ## NOTE: vegna vandamala vildi foritid ekki virka eins og ati <br />
+  #include "Arduino.h" <br />
+  #include "SoftwareSerial.h" <br />
+  #include "DFRobotDFPlayerMini.h" <br />
+  #include <Servo.h> <br />
 
   Servo myservo_jaw;   // Kjalki
   Servo myservo_neck;  // hals
 
   // Sound
-  SoftwareSerial mySoftwareSerial(10, 11);  // RX, TX
-  DFRobotDFPlayerMini myDFPlayer;
+  
+    SoftwareSerial mySoftwareSerial(10, 11);  // assignes the sound card to (pin 10 and 11)
+    DFRobotDFPlayerMini myDFPlayer;
 
   //back movement
-  int enA = 9; 
-  int in1 = 8;
-  int in2 = 7;
+  
+    int enA = 9; // Motor controle
+    int in1 = 8; // motor pin 1
+    int in2 = 7; // motor pin 2
 
   //jaw movement
-  int jawPin = 5; // assignees the data cable to plug 5
-  int jawPos = 90; sets the degree to 90
+  
+    int jawPin = 5; // assignees the data cable to plug 5
+    int jawPos = 90; sets the degree to 90
 
   // NECK movement
-  int neckPin = 3; // assignees the data cable to plug 3
-  int neckPos = 90;
+  
+    int neckPin = 3; // assignees the data cable to plug 3
+    int neckPos = 90;
 
   //eyes
-  int eyePinR = 12; // assignees the data cable to plug 12
-  int eyePinL = 13; // assignees the data cable to plug 13
-  bool eyePowerR = 1; // controles the Right eye ON - OFF
-  bool eyePowerL = 1; // controles the Left eye ON - OFF
+  
+    int eyePinR = 12; // assignees the data cable to plug 12 <br />
+    int eyePinL = 13; // assignees the data cable to plug 13 <br />
+    bool eyePowerR = 1; // controles the Right eye ON - OFF <br />
+    bool eyePowerL = 1; // controles the Left eye ON - OFF <br />
 
 
   void setup() {
-    // Set all the motor control pins to outputs
-    pinMode(enA, OUTPUT);
-    pinMode(in1, OUTPUT);
-    pinMode(in2, OUTPUT);
-    pinMode(eyePinL, OUTPUT);
-    pinMode(eyePinR, OUTPUT);
-
-    digitalWrite(eyePinL, eyePowerL);
-    digitalWrite(eyePinR, eyePowerR);
+  
+    // Set all the motor control pins to outputs <br />
+    pinMode(enA, OUTPUT); <br />
+    pinMode(in1, OUTPUT); <br />
+    pinMode(in2, OUTPUT); <br />
+    pinMode(eyePinL, OUTPUT); <br />
+    pinMode(eyePinR, OUTPUT); <br />
+    digitalWrite(eyePinL, eyePowerL); <br />
+    digitalWrite(eyePinR, eyePowerR); <br />
 
 
   // Sound setup 
-  mySoftwareSerial.begin(9600);  // notum softwareSerial í samskiptum við mp3.
-  if (!myDFPlayer.begin(mySoftwareSerial)) {
-  while(true);
-  }
+  
+    mySoftwareSerial.begin(9600);  // notum softwareSerial í samskiptum við mp3.
+    if (!myDFPlayer.begin(mySoftwareSerial)) {
+    while(true);
+    }
 
   }
 
   void loop() {
+  
     //bodyMotorPower();
     //jawMovement();
     //neckMovement();
@@ -100,6 +106,7 @@ Svo fórum við að hljóma með hann, fyrstu vandamálin komu upp, þar sem ekk
   }
 
   void playSound() {
+  
     Servo myservo;
     int pos = 0;
     myDFPlayer.volume(30);  // Hljóðstyrkur (volume) frá 0 til 30  (má líka vera í setup)
@@ -131,6 +138,7 @@ Svo fórum við að hljóma með hann, fyrstu vandamálin komu upp, þar sem ekk
   }
 
   void neckMovement() {
+  
     for (int i = 0; i < 90; i += 2) {  // goes from 0 degrees to 180 degrees
       // in steps of 1 degree
       myservo_neck.write(i);  // tell servo to go to position in variable 'pos'

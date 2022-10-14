@@ -12,6 +12,12 @@ Svo fórum við að hljóma með hann, fyrstu vandamálin komu upp, þar sem ekk
 
 [![Hlusta](https://github.com/NITEOFF/Verkefni5Vesm1/blob/main/Mappa/skeletonhead.jpg)](https://youtu.be/cod4-cErUxs)
 
+endanum leit tad svona ut
+![Snapchat-1088999953](https://user-images.githubusercontent.com/101139768/195916593-b88bc845-0802-447e-b8df-be853cd947dc.jpg)
+
+
+
+
 # Kóðinn
   ## NOTE: vegna vandamala vildi foritid ekki virka eins og ati <br />
   #include "Arduino.h" <br />

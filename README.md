@@ -8,6 +8,9 @@ Strax í upphafi fundum við rör sem hæfðu hugmyndinni okkar, síðan teiknu�
 
 ![https://github.com/NITEOFF/Verkefni5Vesm1/blob/main/Mappa/hausinni.jpg](https://github.com/NITEOFF/Verkefni5Vesm1/blob/main/Mappa/hausinni.jpg)
 
+Svo fórum við að hljóma með hann, fyrstu vandamálin komu upp, þar sem ekki var hægt að tengja báða hátalarana venjulega, það komu alltaf einhverjar villur, í kjölfarið var vandamálið líka leyst (Hér fyrir neðan má hlusta á hljóðið sjálft )
+[![Hlusta](https://github.com/NITEOFF/Verkefni5Vesm1/blob/main/Mappa/skeletonhead.jpg)](https://youtu.be/cod4-cErUxs)
+
 # Kóðinn
 
 

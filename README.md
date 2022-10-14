@@ -53,22 +53,22 @@ Endanum leit tad svona ut
 
   //eyes
   
-    int eyePinR = 12; // assignees the data cable to plug 12 <br />
-    int eyePinL = 13; // assignees the data cable to plug 13 <br />
-    bool eyePowerR = 1; // controles the Right eye ON - OFF <br />
-    bool eyePowerL = 1; // controles the Left eye ON - OFF <br />
+    int eyePinR = 12; // assignees the data cable to plug 12
+    int eyePinL = 13; // assignees the data cable to plug 13
+    bool eyePowerR = 1; // controles the Right eye ON - OFF
+    bool eyePowerL = 1; // controles the Left eye ON - OFF
 
 
   void setup() {
   
-    // Set all the motor control pins to outputs <br />
-    pinMode(enA, OUTPUT); <br />
-    pinMode(in1, OUTPUT); <br />
-    pinMode(in2, OUTPUT); <br />
-    pinMode(eyePinL, OUTPUT); <br />
-    pinMode(eyePinR, OUTPUT); <br />
-    digitalWrite(eyePinL, eyePowerL); <br />
-    digitalWrite(eyePinR, eyePowerR); <br />
+    // Set all the motor control pins to outputs
+    pinMode(enA, OUTPUT);
+    pinMode(in1, OUTPUT);
+    pinMode(in2, OUTPUT);
+    pinMode(eyePinL, OUTPUT);
+    pinMode(eyePinR, OUTPUT);
+    digitalWrite(eyePinL, eyePowerL);
+    digitalWrite(eyePinR, eyePowerR);
 
 
   // Sound setup 

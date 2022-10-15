@@ -1,7 +1,6 @@
 # Verkefnalýsing
 
-- [Myndband 1]()
-- [Myndband 2]()
+- [Myndband](https://youtu.be/N04beRtBTuM)
 
 Strax í upphafi fundum við rör sem hæfðu hugmyndinni okkar, síðan teiknuðum við litla skýringarmynd af verkefninu, svo í næstu kennslustund fórum við að útfæra það
 

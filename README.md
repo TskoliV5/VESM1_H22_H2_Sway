@@ -19,6 +19,7 @@ Endanum leit tad svona ut
 
 
 
+```C++
 
 # Kóðinn
   ## NOTE: vegna vandamala vildi foritid ekki virka eins og ati <br />
@@ -155,5 +156,6 @@ Endanum leit tad svona ut
     delay(500);
 
   }
+```
 
 Hópur - Artjom Pushkar, Tryggvi Þór Bogason, Sölvi Hrafn Pétursson

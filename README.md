@@ -8,7 +8,7 @@ Strax í upphafi fundum við rör sem hæfðu hugmyndinni okkar, síðan teiknu�
 
 ![https://github.com/NITEOFF/Verkefni5Vesm1/blob/main/Mappa/hausinni.jpg](https://github.com/NITEOFF/Verkefni5Vesm1/blob/main/Mappa/hausinni.jpg)
 
-Svo fórum við að hljóma með hann, fyrstu vandamálin komu upp, þar sem ekki var hægt að tengja báða hátalarana venjulega, það komu alltaf einhverjar villur, í kjölfarið var vandamálið líka leyst (Hér fyrir neðan má hlusta á hljóðið sjálft með því að smella á myndina hér að neðan)
+Svo fórum við að hljóma með hann, fyrstu vandamálin komu upp, þar sem ekki var hægt að tengja báða hátalarana venjulega, það komu alltaf einhverjar villur, í kjölfarið var vandamálið líka leyst (Hér fyrir neðan má **hlusta á hljóðið** sjálft með því að **smella á myndina** hér að neðan)
 
 [![Hlusta](https://github.com/NITEOFF/Verkefni5Vesm1/blob/main/Mappa/skeletonhead.jpg)](https://youtu.be/cod4-cErUxs)
 
@@ -22,7 +22,7 @@ Endanum leit tad svona ut
 ```C++
 
 # Kóðinn
-  ## NOTE: vegna vandamala vildi foritid ekki virka eins og ati <br />
+  ## NOTE: Vegna vandamála vildi foritid ekki virka eins og það átti að gera <br />
   #include "Arduino.h" <br />
   #include "SoftwareSerial.h" <br />
   #include "DFRobotDFPlayerMini.h" <br />
